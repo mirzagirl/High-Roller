@@ -1,0 +1,16 @@
+{
+  "TRANSACTIONS": {
+    "TRANSACTIONS_UPPER": "TRANSACTIONS",
+    "FROM_DATE": "From Date",
+    "TO_DATE": "To Date",
+    "ACTIVITY_TYPE": "Activity Type",
+    "CREDIT": "Credit",
+    "DEBIT": "Debit",
+    "ALL": "All",
+    "DATE_TIME": "Date/Time",
+    "GAME_TYPE": "Game Type",
+    "TYPE": "Type",
+    "AMOUNT": "Amount",
+    "STATUS": "Status"
+  }
+}

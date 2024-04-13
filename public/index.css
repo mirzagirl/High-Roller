@@ -1,0 +1,11 @@
+@font-face {
+    font-family: "ProximaNova";
+    src: url("./fonts/ProximaNova-Regular.svg") format("svg");
+    src: url("./fonts/ProximaNova-Regular.eot") format("eot");
+    src: url("./fonts/ProximaNova-Regular.ttf") format("truetype");
+    src: url("./fonts/ProximaNova-Regular.woff") format("woff");
+    src: url("./fonts/ProximaNova-Regular.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+  }
+  

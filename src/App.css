@@ -1,0 +1,763 @@
+* {
+  letter-spacing: inherit !important;
+  scrollbar-color: transparent transparent;
+  outline: none;
+}
+@font-face {
+  font-family: "Proxima Nova";
+  src: url("../src/fonts/ProximaNova-Regular.svg");
+  src: url("../src/fonts/ProximaNova-Regular.ttf");
+  src: url("../src/fonts/ProximaNova-Regular.eot");
+  src: url("../src/fonts/ProximaNova-Regular.woff");
+  src: url("../src/fonts/ProximaNova-Regular.woff2");
+  font-weight: 400;
+}
+button:hover {
+  opacity: 0.8;
+}
+
+body .MuiPickersPopper-root .MuiButtonBase-root.Mui-disabled {
+  color: rgba(101, 98, 98, 0.87) !important;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-link {
+  color: #61dafb;
+}
+#Wallet-menu {
+  left: -80px;
+  backdrop-filter: blur(2px);
+}
+
+@media (max-width: 991px) {
+  #Wallet-menu {
+    left: 0px;
+    margin-bottom: 60px;
+  }
+  #Wallet-menu .MuiPaper-elevation {
+    width: 100%;
+    overflow-y: scroll !important;
+    left: 0 !important;
+    margin: 0 auto;
+  }
+}
+
+#Wallet-menu .MuiPaper-elevation {
+  background-color: transparent !important;
+  background-image: none !important;
+  width: 340px;
+  top: 70px !important;
+  position: relative;
+  overflow: visible;
+}
+
+#Wallet-menu .MuiInputBase-input {
+  padding-left: 20px;
+}
+
+#account-menu .MuiPaper-elevation {
+  background-color: transparent !important;
+  background-image: none !important;
+  width: 340px;
+  height: 340px;
+  max-height: 340px;
+  right: 0 !important;
+  top: 100px !important;
+  box-shadow: inset 0px 2px 4px rgba(255, 255, 255, 0.02);
+  border-radius: 12px;
+  position: relative;
+  overflow: visible;
+}
+
+@media (max-width: 959.95px) {
+  #account-menu .MuiPaper-elevation {
+    top: 70px !important;
+  }
+}
+
+#account-menu .MuiPaper-elevation:before {
+  position: absolute;
+  content: "url(../public/images/top-icon.svg)";
+  width: 34px;
+  height: 34px;
+}
+
+.MuiPaper-elevation {
+  border-radius: 12px !important;
+}
+
+.MuiPaper-elevation > ul {
+  padding: 0;
+}
+
+.MuiList-root li {
+  display: block;
+  padding: 2px 10px;
+}
+input[type="date" i]::-webkit-calendar-picker-indicator {
+  filter: invert(1) !important;
+}
+.react-tel-input {
+  border-radius: 30px;
+  height: 40px;
+  background: #26282d;
+  border: 1px solid #8f66ab;
+  margin-right: 15px;
+}
+.react-tel-input .flag-dropdown {
+  background-color: transparent;
+  border: none;
+}
+.react-tel-input .selected-flag .arrow {
+  border-top-color: #fff;
+}
+.react-tel-input .form-control {
+  background: transparent;
+  border: none;
+  color: #fff;
+}
+.time-icon {
+  height: 12px;
+  width: 12px;
+  margin-right: 5px;
+}
+
+.time-icon {
+  margin-left: 5px;
+  margin-right: 2px;
+}
+.css-1jzi3sl-MuiGrid-root > .MuiGrid-item {
+  padding-top: 10px !important;
+}
+.css-1jzi3sl-MuiGrid-root {
+  margin-top: 0 !important;
+}
+.card-sport-icon {
+  height: 100%;
+  width: 100%;
+}
+.match-card-border {
+  position: relative;
+}
+.match-card-border:before {
+  position: absolute;
+  left: -30px;
+  top: 0;
+  width: 3px;
+  height: 100px;
+  content: "";
+  background: #21f522;
+}
+.match-card-wrap {
+  padding: 40px;
+}
+.match-card-wrap .match-card-content {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 0;
+}
+.jackpotcta {
+  position: relative;
+  cursor: pointer;
+  min-width: 100px;
+  margin: 0 10px;
+  top: -10px;
+}
+.jackpotcta img {
+  width: 85px;
+  position: absolute;
+  transform: translate(-50%);
+  left: 50%;
+}
+.btn {
+  padding: 6px 20px;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+}
+.btn-primary {
+  background: #8969d8;
+  border: 1px solid #8969d8;
+  color: #fff;
+}
+.btn-primary:hover {
+  background: #8b5ef9;
+  border-color: #8b5ef9;
+}
+.jackpotcta img:nth-child(2),
+.jackpotcta:hover img:nth-child(1) {
+  display: none;
+}
+.jackpotcta:hover img:nth-child(2) {
+  display: block;
+}
+.MuiButtonBase-root {
+  border-radius: 30px !important;
+  padding: 8px 30px !important;
+}
+@media (min-width: 900px) and (max-width: 1500px) {
+  .MuiTabs-scroller .MuiButtonBase-root {
+    min-width: 65px;
+    margin-right: 5px;
+    font-size: 12px;
+  }
+  .MuiTabs-scroller .MuiButtonBase-root {
+    min-width: 65px;
+    margin-right: 5px;
+    font-size: 10px;
+  }
+}
+@media (max-width: 991px) {
+  .match-card-wrap {
+    padding: 20px 15px;
+  }
+  .jackpotcta img {
+    position: static;
+    transform: none;
+  }
+}
+@media (max-width: 899px) {
+  .mob-view {
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  .match-card-content .MuiGrid-item {
+    padding: 0;
+  }
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+  height: 0px;
+}
+.custom-checkbox {
+  margin-top: 20px;
+}
+
+.container {
+  display: block;
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 40px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.custom-checkbox .container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.custom-checkbox .checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background: radial-gradient(
+    201.67% 201.67% at 50% -31.67%,
+    #5d69cf 0%,
+    #342a6f 100%
+  );
+  border: 1.4px solid rgba(106, 113, 199, 0.84);
+  box-shadow: 0px 4px 12px 2px rgba(108, 93, 193, 0.24);
+  border-radius: 6px;
+}
+
+/* When the checkbox is checked, add a blue background */
+.custom-checkbox .container input:checked ~ .checkmark {
+  background: radial-gradient(
+    201.67% 201.67% at 50% -31.67%,
+    #5d69cf 0%,
+    #342a6f 100%
+  );
+  border: 1.4px solid rgba(106, 113, 199, 0.84);
+  box-shadow: 0px 4px 12px 2px rgba(108, 93, 193, 0.24);
+  border-radius: 6px;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.custom-checkbox .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.custom-checkbox .container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.custom-checkbox .container .checkmark:after {
+  left: 7px;
+  top: 2px;
+  width: 6px;
+  height: 12px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.custom-checkbox label {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #757786;
+}
+
+/* caroulse css start here */
+.carousel .slide,
+.carousel .slide .legend {
+  text-align: inherit;
+}
+
+.carousel .slide .legend {
+  background-color: transparent;
+  margin-left: 0;
+  left: 52px;
+  top: 78px;
+  opacity: 1;
+  bottom: inherit;
+}
+.carousel .slide .legend h6 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 32px;
+  color: #ffffff;
+  margin: 0;
+}
+
+.carousel .slide .legend p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 140%;
+  color: #ffffff;
+  margin-top: 25px;
+  margin-bottom: 40px;
+  max-width: 450px;
+}
+
+.carousel .slide .legend button {
+  background: radial-gradient(
+    201.67% 201.67% at 50% -31.67%,
+    #5d69cf 0%,
+    #342a6f 100%
+  );
+  border: 2px solid rgba(106, 113, 199, 0.84);
+  box-shadow: 0px 4px 12px 2px rgba(108, 93, 193, 0.24);
+  border-radius: 12px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 29px;
+  text-transform: capitalize;
+  color: #ffffff;
+  min-width: 260px;
+  padding: 12px;
+  cursor: pointer;
+}
+
+.carousel.carousel-slider .control-arrow:hover {
+  background: transparent;
+}
+
+.carousel.carousel-slider .control-arrow {
+  display: none;
+}
+
+.slider-wrapper {
+  margin-top: 50px;
+}
+
+/* caroulse css end here */
+
+.thumbs-wrapper.axis-vertical,
+.carousel-status,
+.control-dots {
+  display: none;
+}
+
+@media (max-width: 1650px) {
+  .carousel .slide .legend {
+    top: 30px;
+    left: 30px;
+  }
+
+  .carousel .slide .legend h6 {
+    font-size: 20px;
+  }
+
+  .carousel .slide .legend p {
+    max-width: 450px;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .carousel .slide .legend button {
+    min-width: 150px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 1535.95px) {
+  .carousel .slide .legend {
+    top: 30px;
+    left: 30px;
+  }
+
+  .carousel .slide .legend h6 {
+    font-size: 20px;
+  }
+
+  .carousel .slide .legend p {
+    max-width: 450px;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .carousel .slide .legend button {
+    min-width: 150px;
+    font-size: 14px;
+    line-height: 19px;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .carousel .slide .legend {
+    top: 10px;
+    left: 10px;
+  }
+
+  .carousel .slide .legend h6 {
+    font-size: 16px;
+    line-height: normal;
+  }
+
+  .carousel .slide .legend p {
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  .carousel .slide .legend button {
+    min-width: auto;
+    font-size: 10px;
+    border-radius: 5px;
+    padding: 5px;
+    line-height: normal;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .carousel .slide .legend {
+    top: 10px;
+    left: 10px;
+    padding: 0px;
+  }
+
+  .carousel .slide .legend h6 {
+    font-size: 13px;
+    line-height: normal;
+  }
+
+  .carousel .slide .legend p {
+    font-size: 11px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .carousel .slide .legend button {
+    min-width: auto;
+    font-size: 10px;
+    border-radius: 5px;
+    padding: 5px;
+    line-height: normal;
+  }
+}
+
+@media (max-width: 991px) {
+  img[src="/images/upload-icon.svg"] {
+    height: 30px !important;
+    width: 30px !important;
+  }
+}
+
+img[src="/images/upload-icon.svg"] {
+  height: 44px !important;
+  width: 44px !important;
+  object-fit: inherit;
+}
+
+.MuiPickersCalendarHeader-labelContainer {
+  overflow: visible;
+  font-size: 13px;
+  text-align: center;
+}
+
+/* Custom check box css start here */
+.rightPannel {
+  width: 340px;
+  margin-right: 5px;
+}
+
+@media (max-width: 991px) {
+  .leftPannel,
+  .rightPannel {
+    position: absolute;
+    width: 100% !important;
+  }
+
+  .custom-checkbox label {
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
+
+  .carousel .slide img {
+    height: 148px;
+  }
+
+  .middle-section {
+    width: 100% !important;
+    padding-left: 10px;
+    padding-right: 10px;
+    max-width: 1196px;
+  }
+
+  .carousel .slide .legend {
+    top: 16px;
+    left: 20px;
+    padding: 0;
+  }
+
+  .carousel .slide .legend h6 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .carousel .slide .legend p {
+    font-size: 12px;
+  }
+
+  .carousel .slide .legend button {
+    min-width: 92px;
+    font-size: 12px;
+    padding: 0;
+    border-radius: 8px;
+    font-family: Jost !important;
+  }
+}
+
+input:focus-visible {
+  outline: none;
+}
+
+.MuiInputBase-input:-webkit-autofill {
+  -webkit-text-fill-color: #4d4d5b !important;
+  -webkit-box-shadow: 0 0 0 100px #1d1d23 inset !important;
+}
+
+input:-internal-autofill-selected {
+  background-color: #1e1e1e !important;
+}
+
+/* toggle btn */
+.usdView .switch {
+  position: relative;
+  display: inline-block;
+  margin-left: 20px;
+  top: 5px;
+}
+
+.usdView .switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.usdView .slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #1d1d23;
+  box-shadow: inset 0px 2px 8px rgba(0, 0, 0, 0.12);
+  border-radius: 12px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  height: 12px;
+  width: 32px;
+}
+
+.usdView .slider:before {
+  position: absolute;
+  content: "";
+  height: 16px;
+  width: 16px;
+  /* left: 0px; */
+  -webkit-transform: translateX(0px);
+  -ms-transform: translateX(0px);
+  transform: translateX(0px);
+  bottom: -2px;
+  background: #6d6f8a;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.usdView input:checked + .slider {
+  background: #1d1d23;
+  box-shadow: inset 0px 2px 8px rgba(0, 0, 0, 0.12);
+}
+
+.usdView input:focus + .slider {
+  background: #1d1d23;
+  box-shadow: inset 0px 2px 8px rgba(0, 0, 0, 0.12);
+}
+
+.usdView input:checked + .slider:before {
+  -webkit-transform: translateX(16px);
+  -ms-transform: translateX(16px);
+  transform: translateX(16px);
+  background: radial-gradient(
+    201.67% 201.67% at 50% -31.67%,
+    #5d69cf 0%,
+    #342a6f 100%
+  );
+  box-shadow: 0px 2px 12px 2px rgba(108, 93, 193, 0.24);
+}
+
+/* Rounded sliders */
+.usdView .slider.round {
+  border-radius: 34px;
+}
+
+.usdView .slider.round:before {
+  border-radius: 50%;
+}
+
+.react-multiple-carousel__arrow {
+  background: rgba(43, 43, 56, 0.44);
+  border: 1.4px solid rgba(255, 255, 255, 0.12);
+  box-shadow: inset 0px 2px 12px rgba(255, 255, 255, 0.02);
+  backdrop-filter: blur(2px);
+  min-height: 20px;
+  min-width: 20px;
+}
+
+.react-multiple-carousel__arrow::before {
+  font-size: 6px;
+}
+
+.react-multiple-carousel__arrow--right {
+  right: 0;
+  z-index: 1;
+}
+
+.react-multiple-carousel__arrow--left {
+  left: 0;
+  z-index: 1;
+}
+
+.react-multi-carousel-item {
+  padding-right: 10px;
+}
+aside.EmojiPickerReact.epr-main {
+  height: 381px !important;
+  width: 100% !important;
+}
+
+@media (max-width: 991px) {
+  .react-multi-carousel-item {
+    padding-right: 0;
+  }
+}
+
+.cryptoLogo-2 .react-multi-carousel-list {
+  height: 100%;
+}
+
+.select__control {
+  max-width: 150px;
+  min-width: 150px;
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.12) inset;
+  border-radius: 12px;
+  border: none;
+  height: 44px;
+  cursor: pointer;
+}
+
+.select__indicator-separator {
+  display: none;
+}
+
+.select__dropdown-indicator svg {
+  color: #7c8497 !important;
+}
+
+.allGameList .react-horizontal-scrolling-menu--inner-wrapper {
+  margin-top: 40px;
+}
+
+.walletModalDialog .MuiPaper-root {
+  justify-content: center;
+}
+
+.select__input-container {
+  color: #757786;
+}
+
+.languageButton .select__control {
+  margin-bottom: 30px;
+  min-width: 100%;
+  max-width: 100%;
+}
+
+.MuiTouchRipple-root {
+  display: none !important;
+}

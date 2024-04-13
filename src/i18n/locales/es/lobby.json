@@ -1,0 +1,8 @@
+{
+  "LOBBY": {
+    "GAME_ADDED_TO_FAV": "Juegos agregados a favoritos",
+    "GAME_REMOVED_FROM_FAV": "Juegos eliminados de favoritos",
+    "LOAD_MORE_GAMES": "Cargar más juegos",
+    "NO_GAMES_MSG": "No se han encontrado juegos"
+  }
+}

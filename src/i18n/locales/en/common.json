@@ -1,0 +1,32 @@
+{
+  "COMMON": {
+    "SHOW": "Show",
+    "APPLY": "Apply Filter",
+    "HIDE": "Hide",
+    "SAVE_CHANGES": "Save Changes",
+    "FIRST_NAME": "First Name",
+    "LAST_NAME": "Last Name",
+    "EMAIL_ADDRESS": "Email Address",
+    "FAVORITES": "FAVORITES",
+    "PASSWORD": "Password",
+    "PASSWORD_VALIDATION": "Password length atleast 4, start with alphabet, must have upper and lower case character and digit",
+    "EMAIL_VALIDATION": "Email Validation Failed!",
+    "MY_PROFILE": "My Profile",
+    "COUNTRY_REGION": "Country/Region",
+    "COUNTRY": "Country",
+    "CONFIRM_PASSWORD": "Confirm Password",
+    "CONFIRM_PASSWORD_VALIDATION": "Passwords do not match",
+    "REFERRAL_CODE": "Referral Code",
+    "SHOW_PASSWORD": "Show",
+    "HIDE_PASSWORD": "Hide",
+    "USERNAME": "Username",
+    "FULLNAME": "Fullname",
+    "DOB": "Date of Birth",
+    "PHONE": "Phone",
+    "CURRENCY": "Currency",
+    "ZIPCODE": "Zipcode",
+    "CITY": "City",
+    "AGE_VALIDATION": "Age does not meet the eligibilty criteria",
+    "DOB_EMPTY": "Date of birth cannot be empty"
+  }
+}

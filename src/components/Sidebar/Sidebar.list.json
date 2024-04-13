@@ -1,0 +1,44 @@
+[
+  {
+    "content": "COMMON.MY_PROFILE",
+    "to": "/user/myProfile",
+    "src": "/images/profile-user.svg",
+    "alt": "User Icon"
+  },
+  {
+    "content": "HEADER.TRANSACTIONS",
+    "to": "/user/transaction",
+    "src": "/images/transaction.svg",
+    "alt": "Transaction Icon"
+  },
+  {
+    "content": "SIDEBAR.MY_DEPOSIT",
+    "to": "/user/deposit",
+    "src": "/images/deposit.svg",
+    "alt": "Deposit Icon"
+  },
+  {
+    "content": "HEADER.WITHDRAW",
+    "to": "/user/withdraw",
+    "src": "/images/withdrawal.svg",
+    "alt": "Withdrawal Icon"
+  },
+  {
+    "content": "HEADER.BONUS",
+    "to": "/user/bonus",
+    "src": "/images/bonus.svg",
+    "alt": "Bonus Icon"
+  },
+  {
+    "content": "HEADER.REFERRAL",
+    "to": "/user/referral",
+    "src": "/images/Referral.svg",
+    "alt": "Referral Icon"
+  },
+  {
+    "content": "HEADER.CHANGE_PASSWORD",
+    "to": "/user/resetPassword",
+    "src": "/images/lock.svg",
+    "alt": "Lock Icon"
+  }
+]

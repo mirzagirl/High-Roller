@@ -1,0 +1,24 @@
+{
+  "MYPROFILE": {
+    "MY_PROFILE": "MY PROFILE",
+    "EDIT_PROFILE": "Edit Profile",
+    "UPDATE_PROFILE": "Update Profile",
+    "PHONE_NUMBER": "Phone Number",
+    "ADDRESS": "Address",
+    "ZIP_CODE": "Zip Code",
+    "CITY": "City",
+    "MESSAGES": "Messages",
+    "MESSAGES_INFO": "Receive promotions, offers and updates from Superbet.",
+    "FIRSTNAME_VALIDATION": "First name Validation Failed!",
+    "LASTNAME_VALIDATION": "Last name Validation Failed!",
+    "ADDRESS_VALIDATION": "Address Validation Failed!",
+    "COUNTRY_VALIDATION": "Kindly select a country!",
+    "PHONE_NUMBER_VALIDATION": "Phone Number Validation Failed!",
+    "ZIP_CODE_VALIDATION": "Zip Code Validation Failed!",
+    "IMAGE_VALIDATION": "Please select an Image",
+    "IMAGE_UPDATE_SUCCESS": "Profile Image updated Successfully",
+    "ERROR": "An error has Occurred",
+    "MAX_FILE_SIZE_ERROR": "File size should not be greater than 1 MB!",
+    "USER_DETAIL_UPDATE_SUCCESS": "User details updated successfully!"
+  }
+}

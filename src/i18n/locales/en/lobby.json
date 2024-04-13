@@ -1,0 +1,8 @@
+{
+  "LOBBY": {
+    "GAME_ADDED_TO_FAV": "Game added to Favorite",
+    "GAME_REMOVED_FROM_FAV": "Game removed from Favorite",
+    "LOAD_MORE_GAMES": "Show more",
+    "NO_GAMES_MSG": "No games found"
+  }
+}

@@ -1,0 +1,31 @@
+[
+  {
+    "content": "COMMON.MY_PROFILE",
+    "to": "/user/myProfile",
+    "src": "/images/profile-icon.svg",
+    "alt": "User Icon",
+    "component": "MyProfile",
+    "isOpen": "openMyProfile"
+  },
+  {
+    "content": "HEADER.TRANSACTIONS",
+    "to": "/user/transaction",
+    "src": "/images/transaction.svg",
+    "alt": "Transaction Icon",
+    "component": "Transactions",
+    "isOpen": "openTransactions"
+  },
+  {
+    "content": "HEADER.MY_BETS",
+    "src": "/images/payment-icon/mybet.svg",
+    "component": "MyBets",
+    "isOpen": "openMyBets"
+  },
+  {
+    "content": "HEADER.CHANGE_PASSWORD",
+    "src": "/images/payment-icon/pwd.svg",
+    "alt": "Lock Icon",
+    "component": "ChangePassword",
+    "isOpen": "openChangePassword"
+  }
+]

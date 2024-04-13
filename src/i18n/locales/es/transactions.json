@@ -1,0 +1,16 @@
+{
+  "TRANSACTIONS": {
+    "TRANSACTIONS_UPPER": "TRANSACCIONES",
+    "FROM_DATE": "Desde la fecha",
+    "TO_DATE": "Hasta la fecha",
+    "ACTIVITY_TYPE": "Tipo de actividad",
+    "CREDIT": "CRÉDITO",
+    "DEBIT": "DÉBITO",
+    "ALL": "Todo",
+    "DATE_TIME": "Fecha/Hora",
+    "GAME_TYPE": "Tipo de juego",
+    "TYPE": "Tipo",
+    "AMOUNT": "Importe",
+    "STATUS": "Estado"
+  }
+}

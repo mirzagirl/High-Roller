@@ -1,0 +1,25 @@
+{
+  "COMMON": {
+    "FAVORITES": "FAVORITAS",
+    "SHOW": "Mostrar",
+    "APPLY": "Aplicar filtrar",
+    "HIDE": "Esconder",
+    "SAVE_CHANGES": "Guardar cambios",
+    "FIRST_NAME": "Nombre",
+    "LAST_NAME": "Apellido",
+    "EMAIL_ADDRESS": "Dirección de correo electrónico",
+    "PASSWORD": "Contraseña",
+    "PASSWORD_VALIDATION": "Longitud de la contraseña al menos 4, comience con el alfabeto, debe tener caracteres en mayúsculas y minúsculas y dígitos",
+    "EMAIL_VALIDATION": "¡Error en la validación del correo electrónico!",
+    "MY_PROFILE": "Mi perfil",
+    "COUNTRY_REGION": "País/Región",
+    "COUNTRY": "País",
+    "CONFIRM_PASSWORD": "Confirme Contraseña",
+    "CONFIRM_PASSWORD_VALIDATION": "Las contraseñas no coinciden",
+    "REFERRAL_CODE": "Código de referencia",
+    "SHOW_PASSWORD": "Mostrar",
+    "HIDE_PASSWORD": "Esconder",
+    "USERNAME": "nombre de usuario",
+    "FULLNAME": "Nombre completo"
+  }
+}
